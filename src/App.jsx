@@ -6,11 +6,11 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className='  bgb'>
+    <div className='  '>
 
 <Navbar />
 
-      <h1 className='text-red-500 text'>jhjhg</h1>
+      {/* <h1 className='text-red-500 text'>jhjhg</h1> */}
       
 
     </div>
