@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Analytics from './components/Analytics'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 
 <Navbar />
 <Hero />
+<Analytics />
 
       {/* <h1 className='text-red-500 text'>jhjhg</h1> */}
       
