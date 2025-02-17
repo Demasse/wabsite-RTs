@@ -23,12 +23,12 @@ const Navbar = () => {
         </ul>
 
         <div onClick={handleNav} className="  block md:hidden  " >
-            {!nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+            {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
 
 
         </div>
 
-        <div className= {!nav ? ' fixed left-0 h-full top-0 w-[60%]  border-r border-r-gray-900  bg-[#000300] ease-in-out duration-500' :  'fixed left-[-100%]'  } >
+        <div className= {nav ? ' fixed left-0 h-full top-0 w-[60%]  border-r border-r-gray-900  bg-[#000300] ease-in-out duration-500' :  'fixed left-[-100%]'  } >
 
             <h1 className=" w-full text-3xl font-bold text-[#00df9a]  "> Dann〽️</h1>
 
